@@ -5,12 +5,12 @@
 
 @font-face {
   font-family: "Play";
-  src: url("fonts/Play-Regular.ttf");
+  src: url("./fonts/Play-Regular.ttf");
 }
 
 @font-face {
   font-family: "Gilroy-Light";
-  src: url("fonts/Gilroy/Gilroy-Light.ttf");
+  src: url("./fonts/Gilroy/Gilroy-Light.ttf");
 }
 
 html,
