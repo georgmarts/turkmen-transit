@@ -29,4 +29,20 @@ window.onload = function () {
     slidesPerView: "5",
     spaceBetween: "200",
   });
+
+  const xIcon = document.querySelector(".x-icon");
+  const navEl = document.querySelector("nav");
+  const hamburgerEl = document.querySelector(".hamburger");
+
+  hamburgerEl.addEventListener("click", () => {
+    navEl.style.opacity = "1";
+    navEl.classList.remove("pointer-events-none");
+    navEl.classList.add("pointer-events-all");
+  });
+
+  xIcon.addEventListener("click", () => {
+    navEl.style.opacity = "0";
+    navEl.classList.remove("pointer-events-all");
+    navEl.classList.add("pointer-events-none");
+  });
 };
